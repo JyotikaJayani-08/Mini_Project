@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketch Converter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload an Image to Convert to Sketch</h1>
+
+        <input type="file" id="imageUpload" accept="image/*">
+        <br>
+        <img id="preview" src="#" alt="Image Preview" style="display:none;">
+        <br>
+        <button id="convertBtn">Convert</button>
+        
+        <div id="loading" style="display:none;">Processing...</div>
+
+        <h2 id="resultTitle" style="display:none;">Converted Sketch</h2>
+        <img id="sketch" src="#" alt="Sketch" style="display:none;">
+        <br>
+        <a id="downloadLink" href="#" download="sketch.jpg" style="display:none;">Download Sketch</a>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
