@@ -1,5 +1,5 @@
 ````markdown
-# Mini Project: Bidirectional Image Conversion — Sketch to Real and Real to Sketch
+## Mini Project: Bidirectional Image Conversion — Sketch to Real and Real to Sketch
 
 This project explores a deep learning-based approach for **bidirectional image conversion**: generating realistic images from sketches and converting real images into sketch-like representations.
 
