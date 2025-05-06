@@ -1,5 +1,4 @@
-````markdown
-## Mini Project: Bidirectional Image Conversion — Sketch to Real and Real to Sketch
+# Mini Project: Bidirectional Image Conversion — Sketch to Real and Real to Sketch
 
 This project explores a deep learning-based approach for **bidirectional image conversion**: generating realistic images from sketches and converting real images into sketch-like representations.
 
@@ -19,19 +18,21 @@ BiGANs extend traditional GANs by introducing an encoder network, enabling the m
 - **Encoder (E)**: Maps image `x` to latent vector `z`
 - **Discriminator (D)**: Differentiates between real `(x, E(x))` and fake `(G(z), z)` pairs
 
-### 🧪 Training
+### 🧪 Training Details
 
-- Dataset: shoes, celeba, flower, birds, cats
-- Latent Dim: 64
-- Epochs: 100
-- Loss: Binary Cross-Entropy (BCE)
-- Evaluation: Visual comparison, reconstruction quality
+- **Datasets**: Shoes, CelebA, Flowers, Birds, Cats
+- **Latent Dim**: 64
+- **Epochs**: 100
+- **Loss Function**: Binary Cross-Entropy (BCE)
+- **Evaluation**: Visual comparison, reconstruction quality
 
 ---
 
 # RenderX - AI Image Enhancer ✨🖼️
 
 **RenderX** is an AI-powered web application that transforms low-quality images into high-quality visuals using advanced image processing and deep learning. It features a sleek UI and seamless user experience for image enhancement.
+
+---
 
 ## 🚀 Features
 
@@ -43,6 +44,8 @@ BiGANs extend traditional GANs by introducing an encoder network, enabling the m
 - 📁 Upload and download enhanced images
 - 🔐 Full user authentication (login/register/logout)
 - 🎨 Intuitive and responsive frontend with modern UI
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -56,9 +59,12 @@ BiGANs extend traditional GANs by introducing an encoder network, enabling the m
 ### Backend
 
 - Python + Flask
-- Image processing: OpenCV, PIL, AI models (e.g., ESRGAN or custom)
-- User authentication
-- MongoDB (or preferred DB)
+- Image processing with OpenCV and PIL
+- Deep learning models (e.g., ESRGAN or custom-trained BiGAN)
+- MongoDB (or any preferred database)
+- User authentication system
+
+
 
 ## 📦 Installation & Setup
 
