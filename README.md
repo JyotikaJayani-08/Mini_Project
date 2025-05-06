@@ -1,5 +1,3 @@
-Here's the full updated `README.md` content that includes both parts: your **Bidirectional GAN mini project** and the **RenderX web application**:
-
 ````markdown
 # Mini Project: Bidirectional Image Conversion — Sketch to Real and Real to Sketch
 
