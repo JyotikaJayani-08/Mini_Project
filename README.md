@@ -72,7 +72,7 @@ BiGANs extend traditional GANs by introducing an encoder network, enabling the m
    ```bash
    git clone https://github.com/sankhyapatra0808/renderx.git
    cd renderx
-````
+   ```
 
 2. (Optional) Create and activate a virtual environment:
 
@@ -93,14 +93,8 @@ BiGANs extend traditional GANs by introducing an encoder network, enabling the m
    python app.py
    ```
 
-5. Open the app in your browser at `http://localhost:5000`
 
 ---
-
-## 📚 References
-
-* Donahue, J., Krähenbühl, P., & Darrell, T. (2016). *Adversarial Feature Learning*. arXiv:1605.09782
-* Goodfellow et al. (2014). *Generative Adversarial Nets*
 
 ## 📃 License
 
