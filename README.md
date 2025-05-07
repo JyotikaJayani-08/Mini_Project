@@ -1,4 +1,4 @@
-# Bidirectional Image Generation
+# Mini Project: Bidirectional Image Generation
 
 This project explores **bi-directional image and sketch conversion** using a combination of **Pix2Pix GAN** for sketch-to-image synthesis and **OpenCV-based edge detection** for image-to-sketch transformation. RenderX is a web-based platform that makes advanced image processing accessible to users without technical expertise.
 
